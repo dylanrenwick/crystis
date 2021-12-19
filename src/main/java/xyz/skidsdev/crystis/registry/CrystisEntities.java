@@ -7,7 +7,7 @@ import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import xyz.skidsdev.crystis.Crystis;
-import xyz.skidsdev.crystis.entity.CrystalariumBlockEntity;
+import xyz.skidsdev.crystis.block.entity.CrystalariumBlockEntity;
 
 public class CrystisEntities {
     public static BlockEntityType<CrystalariumBlockEntity> CRYSTALARIUM_BLOCK_ENTITY;
