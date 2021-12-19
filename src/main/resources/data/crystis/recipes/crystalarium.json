@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ILI",
+    "R R",
+    "IBI"
+  ],
+  "key": {
+    "I": {"item": "minecraft:copper_ingot"},
+    "B": {"item": "minecraft:copper_block"},
+    "R": {"item": "crystis:copper_rod"},
+    "L": {"item": "crystis:large_amethyst"}
+  },
+  "result": {
+    "item": "crystis:crystalarium",
+    "count": 1
+  }
+}

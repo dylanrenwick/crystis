@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " R ",
+    " R "
+  ],
+  "key": {
+    "A": {"item": "crystis:large_amethyst"},
+    "R": {"item": "crystis:copper_rod"}
+  },
+  "result": {
+    "item": "crystis:fine_amethyst_pickaxe",
+    "count": 1
+  }
+}

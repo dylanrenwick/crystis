@@ -1,0 +1,19 @@
+{
+  "name": "Cutting Amethyst",
+  "icon": "crystis:cut_amethyst",
+  "category": "crystis:early_discoveries",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crystis:flint_cutting_knife",
+      "title": "Cutting Amethyst",
+      "text": "Amethyst geodes found underground offer a plentiful source of amethyst, but we must take care to properly harvest the crystals so as to preserve the purity of the amethyst.$(br2)With a precise knife made of flint and a copper rod, we can harvest cut amethyst from these geodes.",
+      "link_recipe": true
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "crystis:flint_cutting_knife",
+      "recipe2": "crystis:copper_rod"
+    }
+  ]
+}

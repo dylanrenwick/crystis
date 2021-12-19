@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "crystis:item/flint_cutting_knife"
+  }
+}

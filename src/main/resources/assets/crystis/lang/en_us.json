@@ -1,0 +1,22 @@
+{
+  "item.crystis.copper_rod": "Copper Rod",
+  "item.crystis.cut_amethyst": "Cut Amethyst",
+  "item.crystis.large_amethyst": "Large Amethyst",
+  "item.crystis.flint_cutting_knife": "Flint Cutting Knife",
+  "item.crystis.fine_amethyst_axe": "Fine Amethyst Axe",
+  "item.crystis.fine_amethyst_pickaxe": "Fine Amethyst Pickaxe",
+  "item.crystis.fine_amethyst_shovel": "Fine Amethyst Shovel",
+  "item.crystis.fine_amethyst_sword": "Fine Amethyst Sword",
+  "item.crystis.lightning_wand": "Lightning Wand",
+  "item.crystis.lightning_wand.tooltip_1": "Uncraftable dev tool that calls",
+  "item.crystis.lightning_wand.tooltip_2": "lightning on right click.",
+  "item.crystis.lightning_wand.tooltip_3": "Sneak while using to call real lightning.",
+
+  "block.crystis.crystalarium": "Crystalarium",
+  "block.crystis.crystalarium.tooltip_1": "Harnesses Lightning to charge crystals.",
+  "block.crystis.crystalarium.tooltip_2": "Requires a lightning rod on top.",
+  "block.crystis.crystalarium.no_rod": "The Crystalarium needs a lightning rod on top",
+
+  "crystis.advancements.obtain_cut_amethyst": "Cut out for it",
+  "crystis.advancements.obtain_cut_amethyst.desc": "Obtain a cut amethyst by right clicking an amethyst cluster with a cutting knife"
+}

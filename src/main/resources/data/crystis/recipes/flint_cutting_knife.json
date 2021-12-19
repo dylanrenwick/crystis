@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F",
+    "R"
+  ],
+  "key": {
+    "F": {"item": "minecraft:flint"},
+    "R": {"item": "crystis:copper_rod"}
+  },
+  "result": {
+    "item": "crystis:flint_cutting_knife",
+    "count": 1
+  }
+}

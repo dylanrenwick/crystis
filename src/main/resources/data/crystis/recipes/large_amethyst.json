@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": {"item": "crystis:cut_amethyst"}
+  },
+  "result": {
+    "item": "crystis:large_amethyst",
+    "count": 1
+  }
+}

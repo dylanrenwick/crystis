@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "crystis",
+  "version": "${version}",
+  "name": "Crystis",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/crystis/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "xyz.skidsdev.crystis.client.CrystisClient"
+    ],
+    "main": [
+      "xyz.skidsdev.crystis.Crystis"
+    ]
+  },
+  "mixins": [
+    "crystis.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}

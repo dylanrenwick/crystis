@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "title": {
+      "translate": "crystis.advancements.obtain_cut_amethyst"
+    },
+    "description": {
+      "translate": "crystis.advancements.obtain_cut_amethyst.desc"
+    },
+    "icon": {
+      "item": "crystis:cut_amethyst"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["crystis:cut_amethyst"] }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["obtain"]
+  ]
+}
