@@ -21,7 +21,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import xyz.skidsdev.crystis.Crystis;
-import xyz.skidsdev.crystis.entity.CrystalariumBlockEntity;
+import xyz.skidsdev.crystis.block.entity.CrystalariumBlockEntity;
+import xyz.skidsdev.crystis.registry.CrystisEntities;
 
 import java.util.List;
 import java.util.Random;
@@ -73,8 +74,13 @@ public class CrystalariumBlock extends Block implements BlockEntityProvider {
     }
 
     @Override
-    public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+    public void neighborUpdate(BlockState state, World world, BlockPos pos, Block block, BlockPos fromPos, boolean notify) {
+        if (!fromPos.equals(getRodPosition(pos)) || !hasLightningRod(world, pos)) return;
 
+        BlockEntity blockEntity = world.getBlockEntity(pos);
+        if (blockEntity.getType() == CrystisEntities.CRYSTALARIUM_BLOCK_ENTITY) {
+            ((CrystalariumBlockEntity)blockEntity).tryCraft(world, getLightningRod(world, pos));
+        }
     }
 
     private static void spawnItemEntity(ItemStack stack, World world, BlockPos pos) {
@@ -83,8 +89,16 @@ public class CrystalariumBlock extends Block implements BlockEntityProvider {
     }
 
     private boolean hasLightningRod(World world, BlockPos pos) {
-        BlockPos rodPos = pos.add(0, 1, 0);
-        BlockState rodState = world.getBlockState(rodPos);
+        BlockState rodState = getLightningRod(world, pos);
         return rodState.isOf(Blocks.LIGHTNING_ROD);
+    }
+
+    private BlockState getLightningRod(World world, BlockPos pos) {
+        BlockPos rodPos = getRodPosition(pos);
+        return world.getBlockState(rodPos);
+    }
+
+    private BlockPos getRodPosition(BlockPos pos) {
+        return pos.add(0, 1, 0);
     }
 }
