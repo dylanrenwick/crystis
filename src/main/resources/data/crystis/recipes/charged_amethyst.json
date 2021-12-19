@@ -1,0 +1,10 @@
+{
+  "type": "crystis:crystalarium",
+  "input": {
+    "item": "crystis:cut_amethyst"
+  },
+  "output": {
+    "item": "crystis:charged_amethyst",
+    "count": 1
+  }
+}

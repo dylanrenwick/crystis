@@ -13,6 +13,7 @@ public class CrystisItems {
     public static final Item COPPER_ROD = new Item(new FabricItemSettings().group(ItemGroup.MISC));
     public static final Item CUT_AMETHYST = new Item(new FabricItemSettings().group(ItemGroup.MISC));
     public static final Item LARGE_AMETHYST = new Item(new FabricItemSettings().group(ItemGroup.MISC));
+    public static final Item CHARGED_AMETHYST = new Item(new FabricItemSettings().group(ItemGroup.MISC));
 
     public static final Item FLINT_CUTTING_KNIFE = new CrystalKnifeItem(FlintToolMaterial.INSTANCE, new FabricItemSettings().group(ItemGroup.TOOLS));
 
@@ -31,6 +32,7 @@ public class CrystisItems {
         registerItem(COPPER_ROD, "copper_rod");
         registerItem(CUT_AMETHYST, "cut_amethyst");
         registerItem(LARGE_AMETHYST, "large_amethyst");
+        registerItem(CHARGED_AMETHYST, "charged_amethyst");
 
         registerItem(FLINT_CUTTING_KNIFE, "flint_cutting_knife");
         registerItem(FINE_AMETHYST_AXE, "fine_amethyst_axe");
