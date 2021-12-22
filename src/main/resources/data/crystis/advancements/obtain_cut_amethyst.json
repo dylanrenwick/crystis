@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "crystis:root",
   "display": {
     "title": {
       "translate": "crystis.advancements.obtain_cut_amethyst"
