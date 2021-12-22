@@ -1,0 +1,14 @@
+{
+  "name": "Charged Amethyst",
+  "icon": "crystis:charged_amethyst",
+  "category": "crystis:age_of_lightning",
+  "advancement": "crystis:obtain_charged_amethyst",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crystis:charged_amethyst",
+      "title": "Charged Amethyst",
+      "text": ""
+    }
+  ]
+}
