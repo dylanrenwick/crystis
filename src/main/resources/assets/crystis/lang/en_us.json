@@ -20,5 +20,7 @@
   "block.crystis.crystalarium.no_rod": "The Crystalarium needs a lightning rod on top",
 
   "crystis.advancements.obtain_cut_amethyst": "Cut out for it",
-  "crystis.advancements.obtain_cut_amethyst.desc": "Obtain a cut amethyst by right clicking an amethyst cluster with a cutting knife"
+  "crystis.advancements.obtain_cut_amethyst.desc": "Obtain a cut amethyst by right clicking an amethyst cluster with a cutting knife",
+  "crystis.advancements.obtain_charged_amethyst": "Sparkly!",
+  "crystis.advancements.obtain_charged_amethyst.desc": "Charge an amethyst by placing it in a Crystalarium and giving it power"
 }
