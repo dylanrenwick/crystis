@@ -49,16 +49,19 @@ implements Inventory {
 
     @Override
     public ItemStack removeStack(int slot, int amount) {
+        completedCraft = false;
         return Inventories.splitStack(inventory, slot, amount);
     }
 
     @Override
     public ItemStack removeStack(int slot) {
+        completedCraft = false;
         return Inventories.removeStack(inventory, slot);
     }
 
     @Override
     public void setStack(int slot, ItemStack stack) {
+        completedCraft = false;
         stack.setCount(1);
         this.inventory.set(slot, stack);
     }
