@@ -2,10 +2,11 @@
   "name": "Fine Amethyst Tools",
   "icon": "crystis:fine_amethyst_pickaxe",
   "category": "crystis:early_discoveries",
+  "advancement": "crystis:obtain_cut_amethyst",
   "pages": [
     {
       "type": "patchouli:spotlight",
-      "item": "crystis:large_amethyst",
+      "item": "crystis:fine_amethyst_pickaxe",
       "title": "Fine Amethyst Tools",
       "text": "If we combine these finely cut gems into larger amethysts, we can construct quality tools from them.",
       "link_recipe": true
