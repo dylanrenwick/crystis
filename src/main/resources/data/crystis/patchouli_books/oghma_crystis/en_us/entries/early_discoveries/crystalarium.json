@@ -1,0 +1,36 @@
+{
+  "name": "Crystalarium",
+  "icon": "crystis:crystalarium",
+  "category": "crystis:early_discoveries",
+  "advancement": "crystis:obtain_cut_amethyst",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crystis:crystalarium",
+      "title": "Crystalarium",
+      "text": "This book seems to contain schematics for some sort of device capable of focusing large amounts of energy into a cut gemstone.$(br2)If only we had a source of power great enough to have any noticeable effect on the gemstone...",
+      "link_recipe": true
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "crystis:large_amethyst",
+      "recipe2": "crystis:crystalarium"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "enable_visualize": false,
+      "text": "Perhaps lightning is the answer to our power issue...",
+      "multiblock": {
+        "pattern": [
+          [ "i" ],
+          [ "C" ],
+          [ "0" ]
+        ],
+        "mapping": {
+          "i": "minecraft:lightning_rod",
+          "C": "crystis:crystalarium"
+        }
+      }
+    }
+  ]
+}
