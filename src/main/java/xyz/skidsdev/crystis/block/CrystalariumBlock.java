@@ -48,6 +48,7 @@ public class CrystalariumBlock extends Block implements BlockEntityProvider {
         if (world.isClient) return ActionResult.SUCCESS;
 
         CrystalariumBlockEntity blockEntity = (CrystalariumBlockEntity) world.getBlockEntity(pos);
+        if (blockEntity == null) return ActionResult.FAIL;
 
         ItemStack heldStack = player.getStackInHand(hand);
         if (heldStack.isOf(Items.LIGHTNING_ROD)) return ActionResult.PASS;
