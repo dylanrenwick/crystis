@@ -2,11 +2,13 @@
   "item.crystis.copper_rod": "Copper Rod",
   "item.crystis.cut_amethyst": "Cut Amethyst",
   "item.crystis.large_amethyst": "Large Amethyst",
+  "item.crystis.charged_amethyst": "Charged Amethyst",
   "item.crystis.flint_cutting_knife": "Flint Cutting Knife",
   "item.crystis.fine_amethyst_axe": "Fine Amethyst Axe",
   "item.crystis.fine_amethyst_pickaxe": "Fine Amethyst Pickaxe",
   "item.crystis.fine_amethyst_shovel": "Fine Amethyst Shovel",
   "item.crystis.fine_amethyst_sword": "Fine Amethyst Sword",
+
   "item.crystis.lightning_wand": "Lightning Wand",
   "item.crystis.lightning_wand.tooltip_1": "Uncraftable dev tool that calls",
   "item.crystis.lightning_wand.tooltip_2": "lightning on right click.",
